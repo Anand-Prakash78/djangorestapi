@@ -1,0 +1,38 @@
+Rest Api Making Steps i Django rest framework  :-
+
+1-install python ,Django, and  djangorestframework
+2- set up djnago models
+3- setup serializers 
+4- setup views
+5- setup urls 
+6- test your Apis
+
+requirements-
+-python >3.7
+-Django
+-djangorestframework
+
+
+
+admin credential :
+	username= admin
+	password= 1234
+Login admin using :
+localhost:8000/admin
+
+here admin add comapny data and employee information .
+
+view all company data using : 
+http://127.0.0.1:8000/api/v1/company/
+
+view all employee data using 
+http://127.0.0.1:8000/api/v1/employee/
+
+
+if you want to see only one company employee at a time then you used : 
+ex - http://127.0.0.1:8000/api/v1//company/{company_id}/employee/
+http://127.0.0.1:8000/api/v1/company/2/employee/
+
+
+
+
