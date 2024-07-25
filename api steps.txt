@@ -20,7 +20,7 @@ admin credential :
 Login admin using :
 localhost:8000/admin
 
-here admin add comapny data and employee information .
+** here admin add comapny data and employee information .
 
 view all company data using : 
 http://127.0.0.1:8000/api/v1/company/
